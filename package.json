@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cream-on-chrome/eco-bot.git"
+    "url": "git+https://github.com/papaguena/eco-bot.git"
   },
   "author": "claire laborde",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cream-on-chrome/eco-bot/issues"
+    "url": "https://github.com/papaguena/eco-bot/issues"
   },
-  "homepage": "https://github.com/cream-on-chrome/eco-bot#readme"
+  "homepage": "https://github.com/papaguena/eco-bot#readme"
 }
