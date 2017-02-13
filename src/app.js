@@ -1,9 +1,25 @@
-import React from 'react';
-class Hello extends React.Component {
+
+import React, { Component } from 'react';
+// Parent Component
+class GroceryList extends Component {
     render() {
         return (
-            <h1>Hello World</h1>
+            <ul>
+                <ListItem quantity="1" name="Bread" />
+                <ListItem quantity="6" name="Eggs" />
+                <ListItem quantity="2" name="Milk" />
+            </ul>
         );
     }
 }
-React.render(<Hello />, document.getElementById('root'));
+// Child Component
+class ListItem extends Component {
+    render() {
+        return (
+            <li>
+                {this.props.quantity}× {this.props.name}
+            </li>
+        );
+    }
+}
+React.render(<GroceryList />, document.getElementById('root'));
